@@ -1,0 +1,29 @@
+#include<stdio.h>
+void main()
+{
+  int foodcode;
+  printf("enter a no.:");
+  scanf("%d", &foodcode);
+  switch(foodcode)
+  {
+    case 1:
+    printf("Food Item - Idli \n Price- Rs40");
+    break;
+    case 2:
+    printf("Food Item - Dosa \n Price- Rs80");
+    break;
+    case 3:
+    printf("Food Item - Vada \n Price- Rs30");
+    break;
+    case 4:
+    printf("Food Item - Poha \n Price- Rs50");
+    break;
+    case 5:
+    printf("Food Item - Upma \n Price- Rs60");
+    break;
+    default:
+    printf("invalid");
+    break;
+  }
+  getch();
+}
