@@ -14,7 +14,7 @@ void main()
 int sum(int num)
 {
    int s,a;
-   s = s (num%10);
+   s = s +(num%10);
    a = num/10;
    if(a>0)
    {
